@@ -192,7 +192,7 @@ html, body, [class*="css"] {
 """, unsafe_allow_html=True)
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_URL     = "https://1q824iicyc.execute-api.us-east-1.amazonaws.com/Prod/sme_assistant"   # 🔁 replace with your API
+API_URL     = "https://<ID>.execute-api.us-east-1.amazonaws.com/Prod/sme_assistant"   # 🔁 replace with your API
 API_KEY     = "your-api-key-here"                    # 🔁 replace with your key
 API_TIMEOUT = 30                                     # seconds
 
