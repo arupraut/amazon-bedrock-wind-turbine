@@ -1,3 +1,4 @@
+amazon-bedrock-wind-turbine
 
 GenAI Powered Equipment SME Assistance
 
