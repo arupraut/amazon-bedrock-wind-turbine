@@ -1,0 +1,260 @@
+================================================================================
+  WIND TURBINE OPERATIONAL LOG REPORT
+  Asset ID     : WTG-07 | Farm : Coastal Ridge Wind Farm, Tamil Nadu, IN
+  Report Period: 2025-03-01 00:00:00 UTC  →  2025-03-07 23:59:59 UTC
+  Generated    : 2025-03-08 04:12:33 UTC
+  Software     : SCADA v4.2.1 | Firmware : BLT-FW-2024.09
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1 — TURBINE IDENTIFICATION
+--------------------------------------------------------------------------------
+Turbine Model         : Vestas V150-4.5 MW
+Serial Number         : V150-2021-IN-0074
+Hub Height            : 105 m
+Rotor Diameter        : 150 m
+Rated Power           : 4,500 kW
+Cut-in Wind Speed     : 3.0 m/s
+Rated Wind Speed      : 12.0 m/s
+Cut-out Wind Speed    : 22.5 m/s
+Commissioning Date    : 2021-11-14
+Last Major Service    : 2024-09-03  (Interval: 6-month scheduled)
+Next Scheduled Service: 2025-03-05  ← OVERDUE by 3 days at report end
+
+--------------------------------------------------------------------------------
+SECTION 2 — OPERATIONAL SUMMARY (WEEKLY)
+--------------------------------------------------------------------------------
+Total Hours in Period        : 168.0 h
+Hours in Production          : 141.3 h   (84.1%)
+Hours in Standby             : 14.2 h   ( 8.5%)
+Hours in Fault / Alarm       :  8.6 h   ( 5.1%)
+Hours in Scheduled Downtime  :  3.9 h   ( 2.3%)
+
+Capacity Factor (week)       : 72.4%
+Availability (%)             : 91.4%
+Energy Generated             : 18,742 kWh
+Energy Lost (fault)          :  1,284 kWh (est.)
+Energy Lost (curtailment)    :    347 kWh (grid curtailment 2025-03-04)
+
+Mean Wind Speed (hub height) : 9.3 m/s
+Max Wind Gust Recorded       : 21.8 m/s  (2025-03-06 02:17 UTC)
+Avg Ambient Temperature      : 28.4 °C
+Min / Max Temperature        : 22.1 °C / 36.7 °C
+
+--------------------------------------------------------------------------------
+SECTION 3 — HOURLY POWER & WIND LOG  (1-hour averages, selected entries)
+--------------------------------------------------------------------------------
+Timestamp (UTC)       Wind(m/s)  Power(kW)  RPM    Pitch(°)  Temp-Nacelle(°C)  Status
+--------------------  ---------  ---------  -----  --------  ----------------  ------
+2025-03-01 00:00      8.4        2,847      12.1   3.2       41.2              PROD
+2025-03-01 01:00      8.7        2,961      12.3   3.1       41.5              PROD
+2025-03-01 02:00      9.1        3,208      12.6   2.9       41.8              PROD
+2025-03-01 03:00      9.4        3,441      12.8   2.7       42.0              PROD
+2025-03-01 04:00      9.2        3,319      12.7   2.8       42.1              PROD
+2025-03-01 05:00      9.8        3,688      13.1   2.5       42.4              PROD
+2025-03-01 06:00      10.2       3,892      13.4   2.2       43.0              PROD
+2025-03-01 07:00      10.7       4,201      13.8   1.9       43.6              PROD
+2025-03-01 08:00      11.3       4,388      14.1   1.6       44.1              PROD
+2025-03-01 09:00      11.8       4,471      14.4   1.4       44.7              PROD
+2025-03-01 10:00      12.1       4,500      14.6   1.2       45.0              PROD
+2025-03-01 11:00      12.4       4,500      14.6   2.1       45.3              PROD (pitch adj.)
+2025-03-01 12:00      13.0       4,500      14.6   4.7       45.8              PROD
+2025-03-01 13:00      12.7       4,500      14.6   3.9       46.1              PROD
+2025-03-01 14:00      11.4       4,402      14.2   1.5       46.3              PROD
+2025-03-01 15:00      10.8       4,218      13.9   1.8       46.0              PROD
+2025-03-01 16:00      10.1       3,876      13.3   2.3       45.5              PROD
+2025-03-01 17:00      9.3        3,387      12.7   2.7       45.1              PROD
+2025-03-01 18:00      8.6        2,934      12.2   3.0       44.8              PROD
+2025-03-01 19:00      7.9        2,509      11.7   3.5       44.3              PROD
+2025-03-01 20:00      7.2        2,103      11.2   3.9       43.8              PROD
+2025-03-01 21:00      6.8        1,871      10.8   4.2       43.4              PROD
+2025-03-01 22:00      6.3        1,594      10.4   4.6       43.0              PROD
+2025-03-01 23:00      5.9        1,341      10.0   4.9       42.7              PROD
+2025-03-02 00:00      5.4        1,089       9.6   5.3       42.2              PROD
+2025-03-02 01:00      4.9          821       9.1   5.8       41.9              PROD
+2025-03-02 02:00      4.3          511       8.5   6.4       41.5              PROD
+2025-03-02 03:00      3.7          197       7.4   7.1       41.2              PROD
+2025-03-02 04:00      3.1           42       5.8   8.0       40.8              PROD (near cut-in)
+2025-03-02 05:00      2.8            0        --    --        40.4              STANDBY (below cut-in)
+2025-03-02 06:00      2.9            0        --    --        40.1              STANDBY
+2025-03-02 07:00      3.2           57       6.1   7.8       40.5              PROD
+...
+[rows 2025-03-02 08:00 to 2025-03-04 09:00 omitted for brevity — available in raw export]
+...
+2025-03-04 10:00      8.1        2,711      11.9   3.4       43.9              CURTAILED
+2025-03-04 11:00      8.4        2,400      11.9   6.8       44.2              CURTAILED (grid limit 2,400 kW)
+2025-03-04 12:00      8.8        2,400      11.9   8.1       44.6              CURTAILED
+2025-03-04 13:00      9.2        2,400      11.9   9.4       45.0              CURTAILED
+2025-03-04 14:00      9.0        2,400      11.9   8.8       45.2              CURTAILED
+2025-03-04 15:00      8.6        2,847      12.1   3.2       45.0              PROD (curtailment lifted)
+...
+2025-03-05 03:00      11.2       4,371      14.0   1.7       46.5              PROD
+2025-03-05 04:00      11.9       4,478      14.5   1.4       47.1              PROD
+2025-03-05 05:00       --            0        --    --        38.3              FAULT (ALM-0041)
+2025-03-05 06:00       --            0        --    --        38.0              FAULT (ALM-0041)
+2025-03-05 07:00       --            0        --    --        37.8              FAULT (ALM-0041)
+2025-03-05 08:00       --            0        --    --        38.1              FAULT (ALM-0041 — technician on site)
+2025-03-05 09:00       --            0        --    --        38.4              MAINT (scheduled + corrective combined)
+2025-03-05 10:00       --            0        --    --        38.6              MAINT
+2025-03-05 11:00      10.3           0        --    --        38.9              MAINT (restart attempt 1 — fail)
+2025-03-05 12:00      10.7        4,190      13.7   2.0       44.3              PROD (cleared, restarted)
+...
+2025-03-06 02:00      19.4        4,500      14.6   18.3      47.8              PROD (high wind)
+2025-03-06 02:17       GUST 21.8 m/s — pitch safety response activated
+2025-03-06 03:00      20.1        4,500      14.6   21.4      48.1              PROD
+2025-03-06 04:00      21.2        4,500      14.6   24.7      48.6              PROD
+2025-03-06 05:00      21.9            0        --   90.0      36.2              STANDBY (near cut-out, precautionary feather)
+2025-03-06 06:00      20.7        4,500      14.6   22.1      43.1              PROD (resumed)
+...
+2025-03-07 23:00       9.1        3,211      12.6   2.9       43.7              PROD
+2025-03-07 23:59       9.3        3,388      12.7   2.7       43.9              PROD
+
+--------------------------------------------------------------------------------
+SECTION 4 — ALARMS & FAULT LOG
+--------------------------------------------------------------------------------
+Total Alarms Triggered : 14
+Critical Faults        :  1
+Warnings               :  9
+Informational          :  4
+
+ID        Timestamp (UTC)       Code       Severity  Description                            Duration   Resolution
+--------  --------------------  ---------  --------  -------------------------------------  ---------  ----------------------------------
+ALM-001   2025-03-01 11:03      P-PITCH-3  WARNING   Pitch actuator 3 response lag >120ms   00:04:12   Auto-cleared, pitch recalibrated
+ALM-002   2025-03-01 21:47      T-GBX-OT1  WARNING   Gearbox oil temp elevated: 82°C        00:12:38   Auto-cleared after cooling
+ALM-003   2025-03-02 08:22      G-VOLT-L1  INFO      Grid voltage L1 fluctuation ±4%        00:00:47   Auto-cleared
+ALM-004   2025-03-02 19:05      V-VIB-TOW  WARNING   Tower vibration sensor spike (0.42g)   00:01:03   Auto-cleared, isolated wind gust
+ALM-005   2025-03-03 04:31      C-COMM-SC  WARNING   SCADA comms lost (heartbeat timeout)   00:08:11   Restored — network switch reboot
+ALM-006   2025-03-03 14:18      T-GBX-OT1  WARNING   Gearbox oil temp elevated: 85°C        00:19:44   Auto-cleared (2nd occurrence, logged)
+ALM-007   2025-03-03 14:22      L-LUB-P2   WARNING   Lubrication pump 2 pressure low        00:06:30   Auto-cleared after pressure normalised
+ALM-008   2025-03-04 10:01      G-CURT-ON  INFO      Grid curtailment signal received       05:03:00   Curtailment lifted 2025-03-04 15:04
+ALM-009   2025-03-04 23:58      T-COOL-FN  WARNING   Nacelle cooling fan 2 speed below min  00:22:14   Auto-cleared
+ALM-010   2025-03-05 04:47      T-GBX-OT1  CRITICAL  Gearbox oil temp CRITICAL: 96°C        07:11:22   Technician replaced oil filter &
+                                                      Turbine tripped on over-temperature              topped lubrication — restarted 12:08
+ALM-011   2025-03-05 04:47      E-ESTOP-A  CRITICAL  Emergency stop triggered (auto)        07:11:22   Cleared with ALM-010
+ALM-012   2025-03-06 02:17      W-GUST-HI  INFO      Wind gust > 21 m/s — pitch response    00:00:09   Auto, pitch feathered momentarily
+ALM-013   2025-03-06 04:58      W-CUTOUT   WARNING   Wind speed approaching cut-out (21.9)  01:02:00   Turbine feathered precautionarily
+ALM-014   2025-03-07 16:33      P-PITCH-1  WARNING   Pitch actuator 1 response lag >120ms   00:03:47   Auto-cleared, pitch recalibrated
+
+--------------------------------------------------------------------------------
+SECTION 5 — MAINTENANCE LOG
+--------------------------------------------------------------------------------
+Date        Type          Technician       Hours  Description
+----------  ------------  ---------------  -----  ------------------------------------------------
+2025-03-05  CORRECTIVE    R. Krishnamurthy  3.5   Gearbox emergency response:
+                          + A. Selvam              - Drained and replaced gearbox oil (32L, ISO VG 320)
+                                                   - Replaced clogged oil filter (part# GB-FLT-032)
+                                                   - Inspected gear teeth — no visible wear damage
+                                                   - Flushed cooling circuit
+                                                   - Tested oil pump pressure: 4.2 bar (spec: 3.8–4.5)
+                                                   - Test run 20 min before return to service
+                                                   NOTE: 3rd gearbox temp alarm in 7 days — recommend
+                                                   full gearbox inspection at next major service.
+
+2025-03-05  SCHEDULED     R. Krishnamurthy  1.5   6-month scheduled inspection (overdue 3 days):
+                          + A. Selvam              - Blade visual inspection (no surface damage found)
+                                                   - Torque check on hub bolts — 2 bolts at 94% spec, re-torqued
+                                                   - Lubrication points serviced (18 points)
+                                                   - Safety systems functional test — PASS
+                                                   - Fire suppression system check — PASS
+                                                   - Lightning protection continuity — PASS
+                                                   - Anemometer calibration verified — within 1.2%
+                                                   NOTE: Pitch actuator 3 shows minor hydraulic seep.
+                                                   Monitored for now. Replace at next visit if persists.
+
+Parts Consumed:
+  - Gearbox oil ISO VG 320, 32L            QTY: 1 drum
+  - Oil filter GB-FLT-032                  QTY: 1
+  - Grease cartridges (multi-purpose)      QTY: 6
+  - Safety wire M8                         QTY: 0.5m
+  - Hydraulic fluid (top-up actuator 3)    QTY: 0.3L
+
+Parts On Order (raised this week):
+  - Pitch actuator 3 hydraulic seal kit    STATUS: PO raised 2025-03-06, ETA 2025-03-18
+  - Gearbox oil filter GB-FLT-032 x3       STATUS: PO raised 2025-03-05, ETA 2025-03-12 (stock buffer)
+
+--------------------------------------------------------------------------------
+SECTION 6 — PERFORMANCE METRICS vs BASELINE
+--------------------------------------------------------------------------------
+Metric                     This Week    4-Week Avg   12-Week Avg  Target    Status
+-------------------------  -----------  -----------  -----------  --------  ------
+Availability (%)           91.4         94.2         95.1         97.0      BELOW TARGET
+Capacity Factor (%)        72.4         74.8         73.1         75.0      NEAR TARGET
+Specific Energy (kWh/kW)   4.16         4.31         4.19         4.40      BELOW TARGET
+Gearbox Oil Temp (°C avg)  44.8         42.1         41.7         ≤45.0     WATCH
+Vibration RMS (tower)      0.18g        0.16g        0.15g        ≤0.20g    NORMAL
+Blade pitch deviation      ±0.4°        ±0.3°        ±0.3°        ±0.5°     NORMAL
+SCADA uptime (%)           99.2         99.6         99.7         99.9      BELOW TARGET
+Power curve deviation      -1.8%        -0.9%        -0.7%        ≤±2.0%    NORMAL
+
+--------------------------------------------------------------------------------
+SECTION 7 — SENSOR HEALTH
+--------------------------------------------------------------------------------
+Sensor                   Last Calibration   Status    Note
+-----------------------  -----------------  --------  ----------------------------------------
+Anemometer (primary)     2025-03-05         OK        Verified by technician on-site
+Anemometer (secondary)   2024-09-03         OK
+Wind vane                2024-09-03         OK
+Nacelle temp sensor      2024-09-03         OK
+Gearbox oil temp sensor  2024-09-03         WATCH     Reads 2.1°C above cross-reference; monitor
+Pitch sensor (blade 1)   2025-03-05         OK        Recalibrated during maintenance
+Pitch sensor (blade 2)   2024-09-03         OK
+Pitch sensor (blade 3)   2024-09-03         WATCH     Lag detected (ALM-001, ALM-014); monitor
+Tower vibration sensor   2024-09-03         OK
+Power meter              2024-09-03         OK
+Generator temp sensor    2024-09-03         OK
+
+--------------------------------------------------------------------------------
+SECTION 8 — RECOMMENDATIONS
+--------------------------------------------------------------------------------
+Priority  Item                               Detail
+--------  ---------------------------------  ---------------------------------------------------
+HIGH      Gearbox inspection                 3 high-temperature alarms in 7 days. Current oil
+                                             change resolved immediate issue, but root cause
+                                             (bearing wear, cooling circuit partial blockage?)
+                                             not confirmed. Schedule full gearbox borescope
+                                             before next high-wind season.
+
+HIGH      Pitch actuator 3 hydraulic seal    Confirmed seep during maintenance visit. Seal kit
+                                             on order (ETA 2025-03-18). Schedule replacement
+                                             promptly — unaddressed seep risks actuator failure
+                                             and loss of pitch control in high winds.
+
+MEDIUM    Gearbox oil temp sensor            Reads 2.1°C high vs cross-reference. May be masking
+                                             actual temps; replace or recalibrate within 30 days.
+
+MEDIUM    SCADA comms (network switch)       Third occurrence of heartbeat timeout in 90 days.
+                                             Switch appears unstable. Replace hardware.
+
+LOW       Pitch actuator 1 lag              Two minor lag warnings this week (ALM-001, ALM-014).
+                                             Auto-cleared both times. Review hydraulic pressure
+                                             at next visit.
+
+LOW       Scheduled maintenance cadence     6-month service was 3 days overdue. Review scheduling
+                                             to ensure future visits are not delayed, especially
+                                             before monsoon and high-wind seasons.
+
+--------------------------------------------------------------------------------
+SECTION 9 — RAW EVENT STREAM  (selected critical events)
+--------------------------------------------------------------------------------
+[2025-03-05 04:47:03] FAULT      ALM-0041  Gearbox oil temp sensor T-GBX-01: 96.3°C — threshold 90°C
+[2025-03-05 04:47:04] SYSTEM     AUTO-STOP Emergency stop sequence initiated
+[2025-03-05 04:47:04] ACTUATOR   PITCH-ALL Blades feathered to 90° (emergency position)
+[2025-03-05 04:47:06] GENERATOR  OFFLINE   Generator disconnected from grid
+[2025-03-05 04:47:09] BRAKE      APPLIED   Mechanical brake applied — rotor at standstill 00:02:14
+[2025-03-05 04:49:23] STATUS     FAULT     Turbine in FAULT state — awaiting technician
+[2025-03-05 07:30:00] TECHNICIAN ON-SITE   R. Krishnamurthy + A. Selvam arrived
+[2025-03-05 07:35:18] MAINT      BEGIN     Maintenance mode activated
+[2025-03-05 09:12:44] SYSTEM     OIL-DRAIN Gearbox oil drain complete
+[2025-03-05 10:04:19] SYSTEM     OIL-FILL  Gearbox refilled — 32.0L ISO VG 320
+[2025-03-05 10:18:33] SYSTEM     FILTER-R  Oil filter replaced — part GB-FLT-032
+[2025-03-05 11:08:00] SYSTEM     RESTART1  Restart attempt 1 — ABORTED (oil temp stabilising)
+[2025-03-05 11:51:22] STATUS     STANDBY   Oil temp stable at 44.2°C — cleared for restart
+[2025-03-05 12:03:47] SYSTEM     RESTART2  Restart attempt 2 — SUCCESS
+[2025-03-05 12:08:11] GENERATOR  ONLINE    Generator synchronised to grid
+[2025-03-05 12:08:11] STATUS     PROD      Turbine returned to production
+
+--------------------------------------------------------------------------------
+END OF REPORT
+Signed off by: SCADA Automated Report Engine v4.2.1
+Contact: scada-ops@coastalridgewind.in  |  On-call: +91-98400-XXXXX
+================================================================================

@@ -1,0 +1,63 @@
+
+ENTERPRISE CAR MANUFACTURING PLANT
+ULTRA-DETAILED OPERATIONAL + ANALYTICS REPORT (DEMO)
+
+1. PLANT META INFORMATION
+Plant Name: MegaAuto Manufacturing Ltd
+Location: Kolkata, West Bengal, India
+Date: 26 March 2026
+Reporting Window: 24 Hours (3 Shifts)
+Total Capacity: 1800 units/day
+
+2. HIGH-LEVEL KPI SUMMARY
+Production Output: 1625 (Target: 1800)
+Efficiency: 90.2% (Target: 95%)
+Downtime: 312 min (Target: <120)
+Defect Rate: 5.6% (Target: <2%)
+Energy Consumption: 4.8 MW (Target: 4.2 MW)
+Worker Utilization: 87% (Target: 92%)
+
+3. SHIFT-WISE BREAKDOWN
+Shift 1: Output 580 | Downtime 95 min | Issues: Conveyor, Paint delay
+Shift 2: Output 540 | Downtime 140 min | Issues: Robot overheating, Battery shortage
+Shift 3: Output 505 | Downtime 77 min | Issues: Low efficiency, Sensor failure
+
+4. MICRO PRODUCTION DATA
+Line-1 Output: [52,48,50,47,46,44,45,49]
+Line-2 Output: [45,42,38,30,28,35,40,42]
+Line-3 Output: [30,32,35,33,31,29,28,30]
+
+5. MACHINE TELEMETRY
+RB-102 Temp: [75,80,95,110,105,90]
+CV-220 Speed Variance: ±12%
+PT-55 Pressure Fluctuation: 22%
+
+6. WORKFORCE DATA
+Team A Efficiency: 92%
+Team B Efficiency: 84%
+Team C Efficiency: 78%
+
+7. QUALITY CONTROL
+Paint Defects: 48
+Alignment Issues: 22
+Electrical Faults: 12
+Battery Issues: 9
+
+8. INCIDENT LOGS
+14:32 Conveyor breakdown
+15:40 Robot overheating
+18:10 Battery shortage
+22:55 Sensor failure
+
+9. PREDICTIVE SIGNALS
+Conveyor Failure Probability: 72%
+Robot Failure Probability: 65%
+Paint Unit Failure Probability: 58%
+
+10. UNSTRUCTURED LOGS
+- Conveyor noise before failure
+- Paint inconsistency after 3 PM
+- Battery vendor delay
+- Night shift confusion
+
+END OF REPORT
